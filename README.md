@@ -24,4 +24,4 @@ You can retrieve your token id & secret from an administrator's user page in you
 
 ## Usage
 
-Run the `export.py` file via `.\export.py` (or `python3 export.py`). It will print a list of the fetched books and then ask for confirmation. The export will contain a folder for each shelf, each with all of the shelf's books as PDF/HTML/plaintext files.
+Run the `export.py` file via `python3 export.py`. It will print a list of the fetched books and then ask for confirmation. The export will contain a folder for each shelf, each with all of the shelf's books as PDF/HTML/plaintext files.
