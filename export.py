@@ -46,7 +46,7 @@ if not os.path.isdir(config.EXPORT_ROOT):
     print(f'Export root {config.EXPORT_ROOT} is not a valid path, aborting')
     exit()
 
-backup_name = f'Export {datetime.now().strftime("%d.%m.%Y %H-%M-%S")}'
+backup_name = f'export_{datetime.now().strftime("%Y-%m-%d_%H-%M-%S")}_{config.EXPORT_TYPE.lower()}'
 backup_dir = os.path.join(config.EXPORT_ROOT, backup_name)
 os.mkdir(backup_dir)
 
