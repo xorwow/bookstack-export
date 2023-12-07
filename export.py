@@ -39,10 +39,6 @@ for shelf_name in books:
     book_no += len(shelf)
 
 print(f'Found {shelf_no} shelves with {book_no} books total')
-confirmation = input('Continue to export? (y/N) > ')
-if confirmation.lower() != 'y':
-    print('Aborted.')
-    exit()
 
 # Export
 
