@@ -40,7 +40,7 @@ for shelf_name in books:
 
 print(f'Found {shelf_no} shelves with {book_no} books total')
 confirmation = input('Continue to export? (y/N) > ')
-if confirmation == '' or confirmation.lower() != 'y':
+if confirmation.lower() != 'y':
     print('Aborted.')
     exit()
 
