@@ -7,7 +7,7 @@ __Note:__ The API requires an administrator account on the bookstack instance.
 
 Clone this repository into a folder or download the `export.py` and `config.py` files.  
   
-    git clone https://github.com/atlasax/bookstackexport.git bookstackexport/
+    git clone https://github.com/xorwow/bookstackexport.git bookstackexport/
 
 ## Configuration
 
